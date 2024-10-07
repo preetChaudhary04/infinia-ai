@@ -8,6 +8,7 @@ const App = () => {
     <>
       <div className='full-body'>
         <Sidebar />
+        <p>*** in progress from here ***</p>
         <Main />
       </div>
     </>
