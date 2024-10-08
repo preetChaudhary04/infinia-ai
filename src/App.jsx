@@ -6,11 +6,10 @@ import Main from './components/Main/Main'
 const App = () => {
   return (
     <>
-      <div className='full-body'>
+        <div className='app-body'>
         <Sidebar />
-        <p>*** in progress from here ***</p>
         <Main />
-      </div>
+        </div>
     </>
   )
 }
