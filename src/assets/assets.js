@@ -10,6 +10,8 @@ import message_icon from "./message_icon.svg";
 import mike_icon from "./mike_icon.svg";
 import send_icon from "./send_icon.svg";
 import settings_icon from "./settings_icon.svg";
+import infinia_logo from './infinia_logo.png'
+import user_icon from './user_icon.svg'
 
 export const assets = {
   bulb_icon,
@@ -24,4 +26,6 @@ export const assets = {
   mike_icon,
   send_icon,
   settings_icon,
+  infinia_logo,
+  user_icon
 };
