@@ -242,6 +242,7 @@
 
   .input-section {
     display: flex;
+    gap: 2rem;
     width: 87%;
   }
 
