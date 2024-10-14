@@ -20,6 +20,7 @@ const Body = () => {
 
   return (
     <div className='central-main-body'>
+      
       {/* ---navigation bar--- */}
       <div className="nav-bar">
         <div className='nav-title'>Infinia</div>
@@ -80,8 +81,7 @@ const Body = () => {
               setQuestion(e.target.value);
             }}
           />
-          <div className="icon-container" onClick={generateAnswer}>
-            {/* <img className='icon' src={assets.mike_icon} alt="microphone" /> */}
+          <div className="icon-container" onTouchStart={generateAnswer} onClick={generateAnswer}>
             <img className='icon send-icon' src={assets.send_icon} alt="send"  />
           </div>
         </div>
