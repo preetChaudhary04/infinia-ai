@@ -7,8 +7,7 @@ const Body = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
 
-  console.log(import.meta.env.VITE_API_KEY);
-  console.log(import.meta.env.VITE_API_KEY);
+  console.log('api =', import.meta.env.VITE_API_KEY);
 
 
 
