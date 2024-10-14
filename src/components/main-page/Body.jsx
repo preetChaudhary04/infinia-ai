@@ -80,9 +80,9 @@ const Body = () => {
               setQuestion(e.target.value);
             }}
           />
-          <div className="icon-container">
-            <img className='icon' src={assets.mike_icon} alt="microphone" />
-            <img className='icon send-icon' src={assets.send_icon} alt="send" onClick={generateAnswer} />
+          <div className="icon-container" onClick={generateAnswer}>
+            {/* <img className='icon' src={assets.mike_icon} alt="microphone" /> */}
+            <img className='icon send-icon' src={assets.send_icon} alt="send"  />
           </div>
         </div>
       </div>
