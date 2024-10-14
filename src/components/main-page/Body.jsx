@@ -6,7 +6,7 @@ import './body.css';
 const Body = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
-  
+
 
   async function generateAnswer() {
     const response = await axios({
@@ -20,7 +20,7 @@ const Body = () => {
 
   return (
     <div className='central-main-body'>
-      
+
       {/* ---navigation bar--- */}
       <div className="nav-bar">
         <div className='nav-title'>Infinia</div>
@@ -81,8 +81,8 @@ const Body = () => {
               setQuestion(e.target.value);
             }}
           />
-          <div className="icon-container" onTouchStart={generateAnswer} onClick={generateAnswer}>
-            <img className='icon send-icon' src={assets.send_icon} alt="send"  />
+          <div className="icon-container" onClick={generateAnswer} onTouchStart={generateAnswer}>
+            <img className='icon send-icon' src={assets.send_icon} alt="send" />
           </div>
         </div>
       </div>
