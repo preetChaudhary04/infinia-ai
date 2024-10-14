@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/infinia-ai/",
   env: {
-    API_KEY: 'VITE_API_KEY',
+    file: './.env',
   },
 })
