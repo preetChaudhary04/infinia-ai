@@ -81,7 +81,7 @@ const Body = () => {
               setQuestion(e.target.value);
             }}
           />
-          <div className="icon-container" onClick={generateAnswer} onTouchStart={generateAnswer}>
+          <div className="icon-container" onClick={generateAnswer} onTap={generateAnswer}>
             <img className='icon send-icon' src={assets.send_icon} alt="send" />
           </div>
         </div>
