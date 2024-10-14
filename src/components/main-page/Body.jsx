@@ -7,6 +7,8 @@ const Body = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
 
+  console.log(import.meta.env.VITE_API_KEY);
+
 
   async function generateAnswer() {
     const response = await axios({
