@@ -1,14 +1,14 @@
 import React from 'react'
 import './App.css'
 import Sidebar from './components/main-page/Sidebar'
-import CentralBody from './components/main-page/CentralBody'
+import Body from './components/main-page/Body'
 
 const App = () => {
   return (
     <>
-        <div className='app-body flex '>
+        <div className='app-body'>
         <Sidebar />
-        <CentralBody />
+        <Body />
         </div>
     </>
   )
