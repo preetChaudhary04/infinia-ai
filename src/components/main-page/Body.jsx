@@ -6,8 +6,6 @@ import './body.css';
 const Body = () => {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
-
-  console.log('API Key:', import.meta.env.VITE_API_KEY);
   
 
   async function generateAnswer() {
